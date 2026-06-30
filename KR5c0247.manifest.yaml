@@ -1,0 +1,51 @@
+canonical_identifier: bkk:krp/KR5c0247/v1
+canonical_location: https://kanripo.org/bkk/KR5c0247/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:7cf5854f9b7b99617990762b56ca5289dd34e1992baf324bb7716157d9a4b2ee
+metadata:
+  title: 修真祕籙
+  identifiers:
+    alt_id:
+    - DZ0850
+  date: '2015-08-29 00:54:58.070689'
+  source:
+    repository: kanripo
+    path: KR5c0247
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+  base_edition: HFL
+  edition:
+    short: bkk
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+editions:
+- short: HFL
+  label: 【正統道藏・涵芬樓版】
+- short: ZTDZ
+  label: 【正統道藏・三家本】
+- short: SJB
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0247_000.yaml, hash: 'sha256:379101bb1a993e711915a462c1211bf5d096cce346f3c04583f058e15dde96b9'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0247_000.markers.yaml, hash: 'sha256:d5e0b2c629eb803e435b49c09e9650fd80446af341fc716262a57ee861ea29b6'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0247_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 2870
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:aeb67afcbc40ce15d2484cd8e091393ca2a7330b50b5c954d1f4a5fe15c9d64a
+mappings:
+- canonical_identifier: bkk:mapping/variant-fold-v1
+  hash: sha256:366e8ec95655b72d3205b878dc416602f82ff8a6b5dd240168f5ee5a7c65a61e
